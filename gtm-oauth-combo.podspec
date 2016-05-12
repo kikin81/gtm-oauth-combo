@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.resource            = '**/*.xib'
   s.ios.frameworks      = 'Security', 'SystemConfiguration'
   s.requires_arc        = false
-  s.dependency          "gtm-http-fetcher"
+  s.dependency          "GTMHTTPFetcher"
 end
